@@ -16,6 +16,7 @@ public:
 
         while (len<n){
             char ch= ans[len-1];
+            // instead of line 27  k%= turnChange; this also works
             turnChange/=2; 
             int turn = k/turnChange;
            if(turn ==0){
